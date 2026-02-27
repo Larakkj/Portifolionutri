@@ -12,7 +12,7 @@ export default function Home() {
   // Lista temporária de imagens para o carrossel. Você poderá trocar esses links depois.
   const heroImages = [
     "https://images.unsplash.com/photo-1594824436998-d8bb435534e6?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1490818387583-1b5ba459ee12?auto=format&fit=crop&q=80&w=800",
+    "https://image2url.com/r2/default/images/1772232431605-ff960fb0-3a5f-4b53-a40c-0e44aa08f73a.jpg",
     "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800"
   ];
 
@@ -46,7 +46,7 @@ export default function Home() {
       <header className="fixed top-0 w-full bg-background/80 backdrop-blur-md z-50 border-b border-secondary">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="font-serif text-2xl font-semibold tracking-tight text-primary">
-            Dr. Juliana Coimbra
+            Dr. Juliana Alves
           </div>
           <nav className="hidden md:flex gap-8 text-sm font-medium">
             <a href="#sobre" className="hover:text-primary transition-colors">Sobre</a>
@@ -147,7 +147,7 @@ export default function Home() {
               />
             </div>
             <div className="order-1 md:order-2 space-y-8">
-              <h2 className="text-4xl md:text-5xl font-serif">Muito prazer, <br /> Dr. Juliana Coimbra</h2>
+              <h2 className="text-4xl md:text-5xl font-serif">Muito prazer, <br /> Dr. Juliana Alves</h2>
               <p className="text-lg text-foreground/80 leading-relaxed">
                 Minha missão é mostrar que uma alimentação saudável pode ser deliciosa, prática e caber na sua rotina. Não acredito em dietas da moda, mas sim em reeducação e equilíbrio.
               </p>
@@ -156,10 +156,6 @@ export default function Home() {
                 <li className="flex items-center gap-3 text-lg">
                   <CheckCircle2 className="text-primary flex-shrink-0" />
                   <span>Formada pela <strong>Universidade UNINASSAU</strong></span>
-                </li>
-                <li className="flex items-center gap-3 text-lg">
-                  <CheckCircle2 className="text-primary flex-shrink-0" />
-                  <span>Pós-graduação em <strong>Nutrição Clínica e Esportiva</strong></span>
                 </li>
                 <li className="flex items-center gap-3 text-lg">
                   <CheckCircle2 className="text-primary flex-shrink-0" />
@@ -281,14 +277,14 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="px-6 py-12 bg-background border-t border-secondary text-center">
         <div className="max-w-7xl mx-auto flex flex-col items-center gap-6">
-          <div className="font-serif text-2xl font-semibold text-primary">Dr. Juliana Coimbra</div>
+          <div className="font-serif text-2xl font-semibold text-primary">Dr. Juliana Alves</div>
           <div className="flex gap-4 text-foreground/60">
             <a href="mailto:nutricionistajulianaalves@outlook.com" className="hover:text-primary transition-colors">nutricionistajulianaalves@outlook.com</a>
             <span>•</span>
             <a href="https://wa.me/5511999999999" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">(11) 99999-9999</a>
           </div>
           <p className="text-sm text-foreground/40 mt-8">
-            © {new Date().getFullYear()} Dr. Juliana Coimbra. Todos os direitos reservados.
+            © {new Date().getFullYear()} Dr. Juliana Alves. Todos os direitos reservados.
           </p>
         </div>
       </footer>
