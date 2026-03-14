@@ -34,10 +34,10 @@ export default function Home() {
   };
 
   const getIMCClassification = (value: number) => {
-    if (value < 18.5) return { label: "Abaixo do peso", color: "text-blue-600 dark:text-blue-400" };
+    if (value < 18.5) return { label: "Abaixo do peso", color: "text-blue-400" };
     if (value < 25) return { label: "Normal", color: "text-primary" };
-    if (value < 30) return { label: "Sobrepeso", color: "text-yellow-600 dark:text-yellow-500" };
-    return { label: "Obesidade", color: "text-red-600 dark:text-red-400" };
+    if (value < 30) return { label: "Sobrepeso", color: "text-yellow-500" };
+    return { label: "Obesidade", color: "text-red-400" };
   };
 
   return (
